@@ -91,6 +91,16 @@ public class RecipeDetail extends AppCompatActivity {
         releasePlayer(mExoPlayer);
     }
 
+    public void onPause(){
+        super.onPause();
+        releasePlayer(mExoPlayer);
+    }
+
+    public void onStop(){
+        super.onStop();
+        releasePlayer(mExoPlayer);
+    }
+
     public void releasePlayer(SimpleExoPlayer mExoPlayer) {
         mExoPlayer.stop();
         mExoPlayer.release();

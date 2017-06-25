@@ -2,6 +2,7 @@
 package sani.ango.bakingapp.data.presenter;
 
 
+import android.app.Activity;
 import android.content.res.Configuration;
 import android.widget.Toast;
 
@@ -20,22 +21,21 @@ import java.util.List;
 
 import sani.ango.bakingapp.app.AppController;
 import sani.ango.bakingapp.data.model.Recipe;
-import sani.ango.bakingapp.ui.fragments.MainFragment;
 import sani.ango.bakingapp.util.Util;
 
 public class MainPresenter {
     private AppController app;
     Gson gsonParser;
     private List<Recipe> recipeData;
-    private MainFragment mainFragment;
+    private Activity activity;
 
-    public MainPresenter(AppController app, MainFragment fragment) {
+    public MainPresenter(AppController app, Activity activity) {
         this.app = app;
-        mainFragment = fragment;
+        this.activity = activity;
     }
 
     public void downloadJSonData(){
-        String url = Util.getJSonURL(mainFragment.getActivity());
+        String url = Util.getJSonURL(activity);
         gsonParser = app.getGSonBuilder();
 
         JsonArrayRequest jsonReq = new JsonArrayRequest(
@@ -63,10 +63,6 @@ public class MainPresenter {
         if (recipeData != null) {
             //mainFragment.loadRecipeList(recipeData);
         }
-    }
-
-    public List<Recipe> getListOfRecipes(){
-        return recipeData;
     }
 
     public boolean isPhoneTablet(){

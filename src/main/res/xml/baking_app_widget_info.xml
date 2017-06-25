@@ -4,6 +4,6 @@ android:initialLayout="@layout/baking_app_widget"
 android:minHeight="40dp"
 android:minWidth="40dp"
 android:previewImage="@drawable/cheese_cake"
-android:resizeMode="horizontal|vertical"
+android:resizeMode="none"
 android:updatePeriodMillis="1800000"
 android:widgetCategory="home_screen" />

@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import butterknife.Bind;
@@ -46,7 +48,13 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MasterViewHold
     public void onBindViewHolder(MasterViewHolder masterViewHolder, int i) {
         if (data != null && data.size() > 0)
         masterViewHolder.tv.setText(data.get(i).getRecipeName());
-        masterViewHolder.im.setImageResource(imageList.get(i));
+        if (!(data.get(i).getImageUrl().equals(""))){
+            Picasso.with(context).load(data.get(i).getImageUrl())
+                    .into(masterViewHolder.im);
+        }
+        else {
+            masterViewHolder.im.setImageResource(imageList.get(i));
+        }
     }
 
     @Override

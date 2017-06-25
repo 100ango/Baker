@@ -1,15 +1,45 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="sani.ango.bakingapp.ui.fragments.MainFragment"
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_main" />
-</LinearLayout>
+        android:id="@+id/recipe_list" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/no_data_layout"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text = "Recipe not available either because data is off, or site is down"
+            android:typeface="sans"
+            android:text="@string/network_error"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/refreshButton"
+            android:src="@android:drawable/stat_notify_sync"
+            android:contentDescription="@string/refresh_button"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</FrameLayout>

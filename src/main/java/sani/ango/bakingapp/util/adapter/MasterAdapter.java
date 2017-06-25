@@ -7,8 +7,11 @@ import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -45,6 +48,10 @@ public class MasterAdapter extends RecyclerView.Adapter<MasterAdapter.MasterView
     @Override
     public void onBindViewHolder(MasterViewHolder holder, int position) {
         holder.stepTextView.setText(steps.get(position).getStepTitle());
+        if (!(steps.get(position).getThumbnailURL().equals(""))){
+            Picasso.with(context).load(steps.get(position)
+                    .getThumbnailURL()).into(holder.thumbnail);
+        }
     }
 
     @Override
@@ -55,6 +62,9 @@ public class MasterAdapter extends RecyclerView.Adapter<MasterAdapter.MasterView
     class MasterViewHolder extends ViewHolder implements View.OnClickListener{
         @Bind(R.id.stepTextView)
         TextView stepTextView;
+
+        @Bind(R.id.image_thumbnail)
+        ImageView thumbnail;
 
         @Bind(R.id.stepListLayout)
         LinearLayout layout;

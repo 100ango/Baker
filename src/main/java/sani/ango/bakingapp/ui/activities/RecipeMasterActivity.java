@@ -137,12 +137,24 @@ public class RecipeMasterActivity extends AppCompatActivity
         }
     }
 
+    public void onPause(){
+        super.onPause();
+        releasePlayer();
+    }
+
+    public void onStop(){
+        super.onStop();
+        releasePlayer();
+    }
+
     /**
      * Release ExoPlayer.
      */
     public void releasePlayer() {
-        mExoPlayer.stop();
-        mExoPlayer.release();
-        mExoPlayer = null;
+        if (mExoPlayer != null) {
+            mExoPlayer.stop();
+            mExoPlayer.release();
+            mExoPlayer = null;
+        }
     }
 }

@@ -23,16 +23,22 @@ public class Recipe implements Parcelable{
     @Expose
     public List<Ingredients> recipeIngredients;
 
-    public Recipe (String name, ArrayList<Steps> steps, ArrayList<Ingredients> ingredient) {
+    @SerializedName ("image")
+    @Expose
+    public String imageUrl;
+
+    public Recipe (String name, ArrayList<Steps> steps, ArrayList<Ingredients> ingredient, String image) {
         recipeName = name;
         recipeSteps = steps;
         recipeIngredients = ingredient;
+        imageUrl = image;
     }
 
     protected Recipe(Parcel in) {
         recipeName = in.readString();
         recipeSteps = in.createTypedArrayList(Steps.CREATOR);
         recipeIngredients = in.createTypedArrayList(Ingredients.CREATOR);
+        imageUrl = in.readString();
     }
 
     public static final Creator<Recipe> CREATOR = new Creator<Recipe>() {
@@ -59,6 +65,10 @@ public class Recipe implements Parcelable{
         return recipeSteps;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -69,5 +79,6 @@ public class Recipe implements Parcelable{
         dest.writeString(recipeName);
         dest.writeTypedList(recipeSteps);
         dest.writeTypedList(recipeIngredients);
+        dest.writeString(imageUrl);
     }
 }

@@ -98,6 +98,7 @@
     <orderEntry type="library" exported="" name="support-annotations-25.0.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.1.0" level="project" />
     <orderEntry type="library" exported="" name="gson-2.4" level="project" />
+    <orderEntry type="library" exported="" name="picasso-2.5.2" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-22.1.0" level="project" />
     <orderEntry type="library" exported="" name="exoplayer-r2.2.0" level="project" />
     <orderEntry type="library" exported="" name="volley" level="project" />

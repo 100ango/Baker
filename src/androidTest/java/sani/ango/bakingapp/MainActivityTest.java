@@ -1,5 +1,5 @@
 /*In the name of Allah*/
-package sani.ango.bakingapp;
+/*package sani.ango.bakingapp;
 
 import android.support.test.espresso.ViewInteraction;
 import android.support.test.rule.ActivityTestRule;
@@ -69,4 +69,4 @@ public class MainActivityTest {
                 allOf(withId(R.id.recipe_list), isDisplayed()));
         recyclerView.perform(actionOnItemAtPosition(0, click()));
     }
-}
+}*/
