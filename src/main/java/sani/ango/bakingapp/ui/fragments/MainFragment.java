@@ -1,5 +1,5 @@
 /*In the name of Allah*/
-package sani.ango.bakingapp.ui.fragments;
+/*package sani.ango.bakingapp.ui.fragments;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -146,4 +146,4 @@ public class MainFragment extends Fragment implements MainAdapter.ClickListener{
         downloadJSonData();
     }
 
-}
+}*/
