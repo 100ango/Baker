@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r2.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="31ead391552fc8d93a7b87b0f15e83755b908904">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-7c9fa150b478f754253be8b0f09f1fd287883aa2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\gson-2.4-54c2ce05c7fc0a6e27686e1a4021bfac5f2587b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-99857189d499abeb12e784fdd5a86078af4c822c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-8a3ca326436627a3a387510087386cfd13fe6837.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-99857189d499abeb12e784fdd5a86078af4c822c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66fd9d179eb79b64c99e555dead32e725792217a">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-864d08e71f07e6f89827d0a2c962c7ece149ae7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-c53b7a8f5b25893aedd949ac98ad87b1a4fe3679.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\libs\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-60a552cccd13202d1caa7d998c91f07006b1d580.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="80434c45861675a57d690fba5ca31c3d55c89489">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-3cbd7d19394e4e31ccbc5be024c96f83f197200b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r2.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="31ead391552fc8d93a7b87b0f15e83755b908904">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-7c9fa150b478f754253be8b0f09f1fd287883aa2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-31ff5180f358c4cf495cbcf4fadfdc243077cd21.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\volley-0e54ca8d8164bbf071906932a293c80eda9b5163.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1-fb6d1721cae77a65412cfed44bf8470aee9754cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\libs\volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\volley-0e54ca8d8164bbf071906932a293c80eda9b5163.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-c53b7a8f5b25893aedd949ac98ad87b1a4fe3679.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66fd9d179eb79b64c99e555dead32e725792217a">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-864d08e71f07e6f89827d0a2c962c7ece149ae7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-31ff5180f358c4cf495cbcf4fadfdc243077cd21.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-8a3ca326436627a3a387510087386cfd13fe6837.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="80434c45861675a57d690fba5ca31c3d55c89489">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\classes-3cbd7d19394e4e31ccbc5be024c96f83f197200b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\gson-2.4-54c2ce05c7fc0a6e27686e1a4021bfac5f2587b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1-fb6d1721cae77a65412cfed44bf8470aee9754cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\ango\AndroidStudioProjects\BakingApp\app\libs\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\ango\AndroidStudioProjects\BakingApp\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-60a552cccd13202d1caa7d998c91f07006b1d580.jar" />
+    </item>
+
+</items>

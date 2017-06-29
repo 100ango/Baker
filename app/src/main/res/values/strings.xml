@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="apiURL">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json</string>
+    <string name="network_error">Possible reasons why recipe is not loading.server is down or Internet connection is off</string>
+    <string name="recipe_image_desc">Recipe image</string>
+    <string name="main_title">Baking Recipes</string>
+    <string name="list_header">Ingredients list</string>
+    <string name="add_widget">Add widget</string>
+    <string name="refresh_button">refresh button</string>
+    <string name="widget_image_desc">widget image desc</string>
+    <string name="thumbnail_desc">thumbnail image</string>
+</resources>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="#09C">
+
+    <ImageView
+        android:id="@+id/widget_recipe_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/cheese_cake"
+        android:contentDescription="@string/widget_image_desc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text = "Ingredients"
+        android:id="@+id/ingredient_widget"
+        android:layout_toRightOf="@+id/widget_recipe_image"
+        android:layout_marginLeft="@dimen/margin_8"
+        android:background="@android:color/white"
+        android:typeface="serif"
+        android:textStyle="bold" />
+
+</RelativeLayout>

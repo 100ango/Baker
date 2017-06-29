@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view" >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_8">
+
+            <ImageView
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="@dimen/margin_50"
+                android:id="@+id/imageView"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/recipe_image_desc"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                tools:text = "Recipe Name"
+                android:id="@+id/recipe_name"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/margin_30" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
